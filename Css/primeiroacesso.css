@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    border: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFA07A;
+}
+.caixadelogin{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 370px;
+    height: 410px;
+    border-radius: 20px;
+    background-color: #FFB775;
+    border: 1.5px solid black;
+}
+.h3{
+    text-align: center;
+    padding-top: 15px;
+    margin: 0;
+    font-family: "Itim", cursive;
+    font-size: 30px;
+    color: white;
+}
+.h4{
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: "Outfit", sans-serif;
+    font-size: 19px;
+    color: white;
+}
+form{
+    padding: 15px;
+}
+.a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 17px;
+    transition: transition 0.5s ease;
+}
+.a:hover{
+    font-weight: bolder;
+    color: black;
+}
+button{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: transparent;
+    bottom: 7px;
+    font-family: "Itim", cursive;
+    font-size: 20px; 
+    background-color: #FF7F50;
+    transition: transition 0.5s ease;
+}
+button:hover{
+    border: 1.3px solid black;
+}
+input{
+    height: 33px;
+    width: 320px;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+label{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
